@@ -1,0 +1,107 @@
+body{
+    margin: 0%;
+    background-color: #0B2447}
+.box{
+    width: 100%;
+    height: 110px;
+    float: left;
+    background-color: #19376D;
+}
+.logo{
+    height: 110px;
+    width: 30%;
+    float: left;}
+
+.menu{
+    height: 110px;
+    width: 70%;
+    text-align: right;
+    float: right;}
+
+.logo h3{
+    text-align: center;
+    font-size: 30px;
+    color: #A5D7E8 ;
+}
+
+.menu ul{
+    margin-right: 50px;
+    margin-top: 37px;
+    
+}
+
+.menu ul li{
+    
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+.menu ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #A5D7E8;
+}
+.menu ul li a:hover{
+    color: #576CBC;
+    transition: 300ms;
+}
+
+.banner{
+    float: left;
+    width: 100%;
+    height: 500px;
+    background-color: #122d5e;
+}
+.banner_content{
+    text-align: right;
+    float: left;
+    height: 500px;
+    width: 50%;
+
+}
+.banner_image{
+    float: left;
+    height: 500px;
+    width: 50%;
+}
+.banner_image img{
+    border-radius: 50%; 
+    margin-top: 80px;
+    margin-left: 30px;
+    height: 300px;
+    width: 300px;
+    border: solid 5px #C69749;
+    
+
+}
+.banner_content h1{
+    margin-right: 30px;
+    margin-top: 100px;
+    font-size: 60px;
+    color: #A5D7E8;
+}
+.banner_content a{
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.banner_content p, h3{
+    padding-right: 30px;
+    padding-left: 100px;
+}
+.banner_content p{
+    color: #A5D7E8;
+}
+.banner_content h3{
+    color: #C69749;
+    font-size: larger;
+}
+.banner_content a:hover{
+    background-color: #A5D7E8;
+    transition: 500ms;
+}
+
+    
